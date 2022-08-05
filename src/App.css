@@ -31,8 +31,10 @@ p,h1{
     background:rgb(134, 181, 139);
 }
 
-.todo:hover{
+.todo:hover, button:hover{
     transform: scale(1.05);
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .input{
@@ -43,4 +45,7 @@ p,h1{
     padding: 1rem;
     height: 2.25em;
     font-size: 24px;
+}
+.input:hover{
+    background-color: rgb(230, 230, 230);
 }
